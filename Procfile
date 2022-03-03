@@ -1,1 +1,1 @@
-web: gunicorn flightpredict100:app
+web: gunicorn hello:app
