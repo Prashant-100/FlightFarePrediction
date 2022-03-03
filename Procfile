@@ -1,1 +1,1 @@
-web: gunicorn flightfareprediction.wsgi
+web: gunicorn FlightFarePrediction:app
