@@ -1,17 +1,12 @@
 from flask import Flask, request, render_template
-from flask_cors import CORS, cross_origin
-import os
+from flask_cors import cross_origin
+import sklearn
 import pickle
 import pandas as pd
 
-
-
-os.putenv('LANG', 'en_US.UTF-8')
-os.putenv('LC_ALL', 'en_US.UTF-8')
-
 app = Flask(__name__)
 model = pickle.load(open("flight_rf.pkl", "rb"))
-CORS(app)
+
 
 @app.route("/")
 @cross_origin()
@@ -362,10 +357,5 @@ def predict():
     return render_template("home.html")
 
 
-
-port = int(os.getenv("PORT", 5000))
 if __name__ == "__main__":
-    host = '0.0.0.0'
-    port = 5000
-
     app.run(debug=True)
