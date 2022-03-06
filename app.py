@@ -9,13 +9,13 @@ app.config['TESTING'] = True
 model = pickle.load(open("flight_rf.pkl", "rb"))
 
 
-@app.route("/")
+@app.route('/', methods=['GET'])
 @cross_origin()
 def home():
     return render_template("home.html")
 
 
-@app.route("/predict", methods=["GET", "POST"])
+@app.route('/predict', methods=['POST', 'GET'])
 @cross_origin()
 def predict():
     if request.method == "POST":
