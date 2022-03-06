@@ -5,6 +5,7 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
+app.config['TESTING'] = True
 model = pickle.load(open("flight_rf.pkl", "rb"))
 
 
