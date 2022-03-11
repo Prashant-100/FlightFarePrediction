@@ -19,7 +19,7 @@
 
 ## Demo
 
--[Link](https://flightfare100predict.herokuapp.com/)
+-[Link](https://flightpred100.herokuapp.com//)
 ## Overview
 
 This is a Flask web app which predicts fare of Flight ticket.
