@@ -25,21 +25,22 @@
 This is a Flask web app which predicts fare of Flight ticket.
 ## Motivation
 
-Data is beautiful.
+Data is beautiful, its beauty often disguised in its artless numeric appearance.
 
-Data is not monotonous.
+There are patterns to find; something needs to be unearthed, filtered, sifted and analyzed from the heap of numbers.
 
-I like to discover information.
+There is information that needs to be discovered, like a diamond in a coal mine. The quest of finding this diamond makes me fall in love with this coal-like data.
 
-I love numbers.
 
-Data is everything and everywhere.
 
-And if we learn something from data using tools and techniques i.e. DATA SCIENCE, and one who can learn is DATA SCIENTIST.
+Data is everywhere.
 
-With data all you do is discovering truth about the whole universe, big or small, nothing can be better than this.
+We can learn from that data using several tools and techniques that make this knowledge repository called "Data Science". Analyzing, exploring data to find vital information, and developing new techniques form the work of a "Data Scientist."
 
-So, I came across this dataset, and I have to learn more tools and techniques while enjoying my work that's why this is wonderful opportunity to prepeare myself for future endeavours.
+I believe that the data lets you see through the truth about everything in this universe, whether big or small, provided you look closely. Collecting and analyzing data is central to this process.
+
+Here, I came across this dataset, and I'm learning and exploring more tools and techniques while using this dataset. I'm enjoying it, and I see this as an excellent opportunity to prepare myself for future endeavors in data science.
+
 ## Installation
 
 The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.jetbrains.com/pycharm/download/#section=windows). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning]() the repository:
